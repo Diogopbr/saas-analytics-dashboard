@@ -18,3 +18,5 @@ npm-debug.log*
 # Build
 dist/
 build/
+.vercel
+public/screenshots/
