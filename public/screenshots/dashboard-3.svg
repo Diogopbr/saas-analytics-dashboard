@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#071032" />
+  <rect x="40" y="40" width="1120" height="620" rx="8" fill="#061025" stroke="#112131" />
+  <text x="80" y="120" fill="#9fb4c8" font-family="Arial" font-size="32">SaaS Analytics — User Details</text>
+  <rect x="80" y="160" width="320" height="420" rx="8" fill="#071227" stroke="#24303f" />
+  <rect x="420" y="160" width="740" height="420" rx="8" fill="#071227" stroke="#24303f" />
+  <text x="120" y="220" fill="#cbd5e1" font-family="Arial" font-size="18">User list</text>
+</svg>

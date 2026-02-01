@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#0f172a" />
+  <rect x="40" y="40" width="1120" height="620" rx="8" fill="#071032" stroke="#1e293b" />
+  <text x="80" y="120" fill="#9ca3af" font-family="Arial" font-size="32">SaaS Analytics Dashboard — Overview</text>
+  <rect x="80" y="160" width="320" height="160" rx="8" fill="#0b1220" stroke="#24303f" />
+  <rect x="420" y="160" width="720" height="160" rx="8" fill="#071027" stroke="#24303f" />
+  <rect x="80" y="340" width="1060" height="260" rx="8" fill="#061226" stroke="#24303f" />
+  <text x="100" y="200" fill="#cbd5e1" font-family="Arial" font-size="20">Revenue</text>
+  <text x="440" y="200" fill="#cbd5e1" font-family="Arial" font-size="20">Active Users</text>
+  <text x="100" y="380" fill="#cbd5e1" font-family="Arial" font-size="20">User Growth</text>
+</svg>
