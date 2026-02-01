@@ -82,3 +82,19 @@ Contribuições e melhorias planejadas:
 - Integrar deploy automático via Vercel / GitHub Actions (CI já roda build e lint).
 
 Se quiser, eu adiciono instruções passo-a-passo para criar o OAuth App no GitHub e conectar os segredos ao Vercel.
+
+Passo-a-passo: criar OAuth App no GitHub
+
+1. Acesse https://github.com/settings/developers → `OAuth Apps` → `New OAuth App`.
+2. Preencha:
+	- **Application name:** SaaS Analytics Dashboard (ou seu nome)
+	- **Homepage URL:** `http://localhost:3000` (para desenvolvimento) e adicione também o domínio de produção (ex.: `https://seu-projeto.vercel.app`).
+	- **Authorization callback URL:** `http://localhost:3000/api/auth/callback/github` (em produção use `https://<SEU_DOMINIO>/api/auth/callback/github`).
+3. Crie o App e copie o `Client ID` e o `Client Secret`.
+4. Em local, coloque `GITHUB_ID` e `GITHUB_SECRET` no `.env.local`.
+5. Em produção (Vercel): vá no projeto → Settings → Environment Variables e adicione `GITHUB_ID` e `GITHUB_SECRET` para as variáveis de ambiente (Production).
+
+Informação adicional — `NEXTAUTH_URL` e `NEXTAUTH_SECRET`:
+
+- `NEXTAUTH_URL` deve apontar para o domínio onde a aplicação rodará (ex.: `https://seu-projeto.vercel.app`).
+- `NEXTAUTH_SECRET` é uma string longa aleatória usada para assinar tokens; gere localmente e cole nas variáveis de ambiente da Vercel.
